@@ -1,0 +1,44 @@
+man <<command name>>- Gives detail about that command
+touch- creates file 
+vim- creates and open file in edit mode
+cat <<file name>> display file content
+history- gives list of all the commands executed
+pwd- gives current directory path
+mkdir-creates directory
+top-gives detail of process running on the machine along with meory detail and process id
+trap- to trap the signal in linus
+df-space/storage available
+free- gives memory detail
+nproc- CPU detail on the machine
+set -x sets the deburg mode
+ps -ef- provides detail of process running on the machine
+ps ef | grep <<any label>>- gives detail of the process matching label
+awk- filter any specific column detail
+e.g ps -ef | grep "aws" | awk -F "  "{print $ 2}--- filter data with space and print detail of 2 column
+set -e --exit script if any error
+set - o-- exit script for any pipe (|) fails
+curl - retrive detail from internert
+wget--download the file
+find /name-e.g sudo find /name << text to find>>
+sudo su -- gives root access
+ifelse--
+if [$a > $b]
+then echo "" a is greater"
+else echo " b is greater"
+fi 
+
+for loop-
+for i in {1,100};
+do echo $i; done
+ #!/ - shebang
+ #!/bin/ksh - first line in the shell script
+#!/bin/bash
+#!/bin/sh
+#!/bin/dash
+
+ksh/dash/sh/bash- are the executable who executes the script
+
+esc + i- opns file in edit mode
+
+esc+ !wq- save and close file
+esc + !q- quite the file\
